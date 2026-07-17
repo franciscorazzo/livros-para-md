@@ -17,4 +17,4 @@ projeto segue [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 - diagnóstico do ambiente e testes multiplataforma.
 
 [Não publicado]: https://github.com/franciscorazzo/livros-para-md/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/franciscorazzo/livros-para-md/releases/tag/v0.1.0
+[0.1.0]: https://github.com/franciscorazzo/livros-para-md/tree/v0.1.0
