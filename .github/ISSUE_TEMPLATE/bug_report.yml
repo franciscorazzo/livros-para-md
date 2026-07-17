@@ -1,0 +1,39 @@
+name: Relatar um bug
+description: Informe um problema reproduzível sem anexar dados privados.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Não publique chaves de API, livros ou documentos privados.
+  - type: input
+    id: system
+    attributes:
+      label: Sistema
+      description: Exemplo: macOS 15, Apple Silicon, Python 3.12.
+    validations:
+      required: true
+  - type: dropdown
+    id: command
+    attributes:
+      label: Comando
+      options:
+        - livros-md local
+        - livros-md ocr
+        - livros-md doctor
+        - instalação
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: O que aconteceu?
+      description: Inclua passos de reprodução e a mensagem de erro sem dados sensíveis.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true

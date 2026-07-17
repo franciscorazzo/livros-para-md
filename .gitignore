@@ -1,0 +1,21 @@
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+.env
+
+# Livros e resultados ficam fora do Git por padrão.
+entrada/
+saida/
+Biblioteca-secundaria-doutorado/
+*.pdf
+*.epub
+*.docx
+*.pptx
+*.xlsx
+*.ocr.json
+*.raw.json
